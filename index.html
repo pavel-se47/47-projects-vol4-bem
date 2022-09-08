@@ -67,54 +67,56 @@
     </header>
     <main>
       <section class="hero">
-        <h1 class="main-title">We create the future</h1>
-        <button data-modal-open type="button" class="button-primary">Order service</button>
+        <h1 class="hero__title">We create the future</h1>
+        <button data-modal-open type="button" class="button__primary">Order service</button>
       </section>
       <section class="section">
         <div class="container">
-          <h2 class="section-title visually-hidden">Our capabilities</h2>
-          <ul class="section-link list">
-            <li class="item">
-              <div class="for-icon">
-                <svg class="section-icon">
+          <h2 class="section__title section__title--vh">Our capabilities</h2>
+          <ul class="section__list">
+            <li class="section__item">
+              <div class="section__icon-bg">
+                <svg class="section__icon">
                   <use href="./images/sprite.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="section-subtitle">Attention to detail</h3>
-              <p>
+              <h3 class="section__subtitle">Attention to detail</h3>
+              <p class="section__subtitle-desc">
                 Ideological considerations, as well as the beginning of daily work on the formation
                 of a position.
               </p>
             </li>
-            <li class="item">
-              <div class="for-icon">
-                <svg class="section-icon">
+            <li class="section__item">
+              <div class="section__icon-bg">
+                <svg class="section__icon">
                   <use href="./images/sprite.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="section-subtitle">Punctuality</h3>
-              <p>
+              <h3 class="section__subtitle">Punctuality</h3>
+              <p class="section__subtitle-desc">
                 The task of the organization, in particular the framework and place of training of
                 personnel entails.
               </p>
             </li>
-            <li class="item">
-              <div class="for-icon">
-                <svg class="section-icon">
+            <li class="section__item">
+              <div class="section__icon-bg">
+                <svg class="section__icon">
                   <use href="./images/sprite.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="section-subtitle">Planning</h3>
-              <p>Similarly, consultation with a broad asset is largely conditional.</p>
+              <h3 class="section__subtitle">Planning</h3>
+              <p class="section__subtitle-desc">
+                Similarly, consultation with a broad asset is largely conditional.
+              </p>
             </li>
-            <li class="item">
-              <div class="for-icon">
-                <svg class="section-icon">
+            <li class="section__item">
+              <div class="section__icon-bg">
+                <svg class="section__icon">
                   <use href="./images/sprite.svg#icon-astro"></use>
                 </svg>
               </div>
-              <h3 class="section-subtitle">Modern technologies</h3>
-              <p>
+              <h3 class="section__subtitle">Modern technologies</h3>
+              <p class="section__subtitle-desc">
                 The significance of these problems is so obvious that the implementation of planned
                 targets.
               </p>
@@ -122,152 +124,173 @@
           </ul>
         </div>
       </section>
-      <section class="section border">
+      <section class="section section--border">
         <div class="container">
-          <h2 class="section-title">What are we doing</h2>
-          <ul class="do list">
-            <li class="do-item">
-              <a href="./development.html" class="do-link">
+          <h2 class="section__title">What are we doing</h2>
+          <ul class="section__do-list">
+            <li class="section__do-item">
+              <a href="./development.html" class="section__do-link">
                 <img src="./images/development.png" width="350" alt="develop" />
-                <div class="thumb">
-                  <p>Development</p>
+                <div class="section__do-thumb">
+                  <p class="section__do-text">Development</p>
                 </div>
               </a>
             </li>
-            <li class="do-item">
-              <a href="./web-design.html" class="do-link">
+            <li class="section__do-item">
+              <a href="./web-design.html" class="section__do-link">
                 <img src="./images/web-design.png" width="350" alt="web design" />
-                <div class="thumb">
-                  <p>Web Design</p>
+                <div class="section__do-thumb">
+                  <p class="section__do-text">Web Design</p>
                 </div>
               </a>
             </li>
           </ul>
         </div>
       </section>
-      <section class="section border">
+      <section class="section section--border">
         <div class="container">
-          <h2 class="section-title">Our team</h2>
-          <ul class="team list">
-            <li class="persons">
-              <img src="./images/man0.png" width="250" alt="human's figure" />
-              <h3 class="section-subtitle">John Doe</h3>
-              <p>Product Designer</p>
-              <ul class="social list">
-                <li class="join-link">
-                  <a href="" aria-label="Link on LinkedIn" class="s-link"
-                    ><svg class="social-icon">
-                      <use href="./images/sprite.svg#icon-link_g"></use></svg
-                  ></a>
+          <h2 class="section__title">Our team</h2>
+          <ul class="section__team-list">
+            <li class="section__person">
+              <img
+                src="./images/man0.png"
+                class="section__person-image"
+                width="250"
+                alt="human's figure"
+              />
+              <h3 class="section__person-name">John Doe</h3>
+              <p class="section__person-position">Product Designer</p>
+              <ul class="social-list__group">
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on LinkedIn" class="social-list__link">
+                    <svg class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-link_g"></use>
+                    </svg>
+                  </a>
                 </li>
-                <li class="join-link">
-                  <a href="" aria-label="Link on Facebook" class="s-link"
-                    ><svg class="social-icon">
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Facebook" class="social-list__link"
+                    ><svg class="social-list__icon">
                       <use href="./images/sprite.svg#icon-fb_g"></use></svg
                   ></a>
                 </li>
-                <li class="join-link">
-                  <a href="" aria-label="Link on Instagram" class="s-link"
-                    ><svg class="social-icon">
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Instagram" class="social-list__link"
+                    ><svg class="social-list__icon">
                       <use href="./images/sprite.svg#icon-insta_g"></use></svg
                   ></a>
                 </li>
-                <li class="join-link">
-                  <a href="" aria-label="Link on Twitter" class="s-link"
-                    ><svg class="social-icon">
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Twitter" class="social-list__link"
+                    ><svg class="social-list__icon">
                       <use href="./images/sprite.svg#icon-twit_g"></use></svg
                   ></a>
                 </li>
               </ul>
             </li>
-            <li class="persons">
-              <img src="./images/man1.png" width="250" alt="human's figure" />
-              <h3 class="section-subtitle">James Doe</h3>
-              <p>Frontend Developer</p>
-              <ul class="social list">
-                <li class="join-link">
-                  <a href="" aria-label="Link on LinkedIn" class="s-link"
-                    ><svg class="social-icon">
+            <li class="section__person">
+              <img
+                src="./images/man1.png"
+                class="section__person-image"
+                width="250"
+                alt="human's figure"
+              />
+              <h3 class="section__person-name">James Doe</h3>
+              <p class="section__person-position">Frontend Developer</p>
+              <ul class="social-list__group">
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on LinkedIn" class="social-list__link"
+                    ><svg class="social-list__icon">
                       <use href="./images/sprite.svg#icon-link_g"></use></svg
                   ></a>
                 </li>
-                <li class="join-link">
-                  <a href="" aria-label="Link on Facebook" class="s-link"
-                    ><svg class="social-icon">
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Facebook" class="social-list__link"
+                    ><svg class="social-list__icon">
                       <use href="./images/sprite.svg#icon-fb_g"></use></svg
                   ></a>
                 </li>
-                <li class="join-link">
-                  <a href="" aria-label="Link on Instagram" class="s-link"
-                    ><svg class="social-icon">
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Instagram" class="social-list__link"
+                    ><svg class="social-list__icon">
                       <use href="./images/sprite.svg#icon-insta_g"></use></svg
                   ></a>
                 </li>
-                <li class="join-link">
-                  <a href="" aria-label="Link on Twitter" class="s-link"
-                    ><svg class="social-icon">
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Twitter" class="social-list__link"
+                    ><svg class="social-list__icon">
                       <use href="./images/sprite.svg#icon-twit_g"></use></svg
                   ></a>
                 </li>
               </ul>
             </li>
-            <li class="persons">
-              <img src="./images/man2.png" width="250" alt="human's figure" />
-              <h3 class="section-subtitle">Judy Doe</h3>
-              <p>Backend Developer</p>
-              <ul class="social list">
-                <li class="join-link">
-                  <a href="" aria-label="Link on LinkedIn" class="s-link"
-                    ><svg class="social-icon">
+            <li class="section__person">
+              <img
+                src="./images/man2.png"
+                class="section__person-image"
+                width="250"
+                alt="human's figure"
+              />
+              <h3 class="section__person-name">Judy Doe</h3>
+              <p class="section__person-position">Backend Developer</p>
+              <ul class="social-list__group">
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on LinkedIn" class="social-list__link"
+                    ><svg class="social-list__icon">
                       <use href="./images/sprite.svg#icon-link_g"></use></svg
                   ></a>
                 </li>
-                <li class="join-link">
-                  <a href="" aria-label="Link on Facebook" class="s-link"
-                    ><svg class="social-icon">
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Facebook" class="social-list__link"
+                    ><svg class="social-list__icon">
                       <use href="./images/sprite.svg#icon-fb_g"></use></svg
                   ></a>
                 </li>
-                <li class="join-link">
-                  <a href="" aria-label="Link on Instagram" class="s-link"
-                    ><svg class="social-icon">
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Instagram" class="social-list__link"
+                    ><svg class="social-list__icon">
                       <use href="./images/sprite.svg#icon-insta_g"></use></svg
                   ></a>
                 </li>
-                <li class="join-link">
-                  <a href="" aria-label="Link on Twitter" class="s-link"
-                    ><svg class="social-icon">
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Twitter" class="social-list__link"
+                    ><svg class="social-list__icon">
                       <use href="./images/sprite.svg#icon-twit_g"></use></svg
                   ></a>
                 </li>
               </ul>
             </li>
-            <li class="persons">
-              <img src="./images/man3.png" width="250" alt="human's figure" />
-              <h3 class="section-subtitle">Robert Doe</h3>
-              <p>UI Designer</p>
-              <ul class="social list">
-                <li class="join-link">
-                  <a href="" aria-label="Link on LinkedIn" class="s-link"
-                    ><svg class="social-icon">
+            <li class="section__person">
+              <img
+                src="./images/man3.png"
+                class="section__person-image"
+                width="250"
+                alt="human's figure"
+              />
+              <h3 class="section__person-name">Robert Doe</h3>
+              <p class="section__person-position">UI Designer</p>
+              <ul class="social-list__group">
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on LinkedIn" class="social-list__link"
+                    ><svg class="social-list__icon">
                       <use href="./images/sprite.svg#icon-link_g"></use></svg
                   ></a>
                 </li>
-                <li class="join-link">
-                  <a href="" aria-label="Link on Facebook" class="s-link"
-                    ><svg class="social-icon">
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Facebook" class="social-list__link"
+                    ><svg class="social-list__icon">
                       <use href="./images/sprite.svg#icon-fb_g"></use></svg
                   ></a>
                 </li>
-                <li class="join-link">
-                  <a href="" aria-label="Link on Instagram" class="s-link"
-                    ><svg class="social-icon">
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Instagram" class="social-list__link"
+                    ><svg class="social-list__icon">
                       <use href="./images/sprite.svg#icon-insta_g"></use></svg
                   ></a>
                 </li>
-                <li class="join-link">
-                  <a href="" aria-label="Link on Twitter" class="s-link"
-                    ><svg class="social-icon">
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Twitter" class="social-list__link"
+                    ><svg class="social-list__icon">
                       <use href="./images/sprite.svg#icon-twit_g"></use></svg
                   ></a>
                 </li>
@@ -276,58 +299,61 @@
           </ul>
         </div>
       </section>
-      <section class="section border">
+      <section class="section section--border">
         <div class="container">
-          <h2 class="section-title">Our clients</h2>
-          <ul class="clients list">
-            <li class="clients-logo">
-              <a href="https://www.apple.com/" class="clients-link"
-                ><svg class="clients-icon"><use href="./images/sprite.svg#icon-apple"></use></svg
+          <h2 class="section__title">Our clients</h2>
+          <ul class="clients-list">
+            <li class="clients-list__logo">
+              <a href="https://www.apple.com/" class="clients-list__link"
+                ><svg class="clients-list__icon">
+                  <use href="./images/sprite.svg#icon-apple"></use></svg
               ></a>
             </li>
-            <li class="clients-logo">
-              <a href="https://www.microsoft.com/" class="clients-link"
-                ><svg class="clients-icon">
+            <li class="clients-list__logo">
+              <a href="https://www.microsoft.com/" class="clients-list__link"
+                ><svg class="clients-list__icon">
                   <use href="./images/sprite.svg#icon-microsoft"></use></svg
               ></a>
             </li>
-            <li class="clients-logo">
-              <a href="https://www.samsung.com/" class="clients-link"
-                ><svg class="clients-icon">
+            <li class="clients-list__logo">
+              <a href="https://www.samsung.com/" class="clients-list__link"
+                ><svg class="clients-list__icon">
                   <use href="./images/sprite.svg#icon-samsung"></use></svg
               ></a>
             </li>
-            <li class="clients-logo">
-              <a href="https://www.shell.com/" class="clients-link"
-                ><svg class="clients-icon">
+            <li class="clients-list__logo">
+              <a href="https://www.shell.com/" class="clients-list__link"
+                ><svg class="clients-list__icon">
                   <use href="./images/sprite.svg#icon-shell"></use></svg
               ></a>
             </li>
-            <li class="clients-logo">
-              <a href="https://www.walmart.com/" class="clients-link"
-                ><svg class="clients-icon">
+            <li class="clients-list__logo">
+              <a href="https://www.walmart.com/" class="clients-list__link"
+                ><svg class="clients-list__icon">
                   <use href="./images/sprite.svg#icon-walmart"></use></svg
               ></a>
             </li>
           </ul>
         </div>
       </section>
-      <section class="last">
+      <section class="section section--bgc">
         <div class="container">
-          <h2 class="section-title">Contact us</h2>
+          <h2 class="section__title">Contact us</h2>
           <div class="content">
-            <form class="js-speaker-form">
-              <label for="tel" class="label">Contact us to find out more</label>
+            <form class="contact-form">
+              <label for="tel" class="contact-form__label">Contact us to find out more</label>
               <input
                 type="tel"
-                class="form-input-contact"
+                class="contact-form__input"
                 name="tel"
                 id="tel"
                 placeholder="contact phone number"
               />
-              <button type="submit" class="button-primary submit">
+              <button type="submit" class="button__primary">
                 Submit
-                <svg class="icon-forms"><use href="./images/forms.svg#icon-send-w"></use></svg>
+                <svg class="contact-form__icon">
+                  <use href="./images/forms.svg#icon-send-w"></use>
+                </svg>
               </button>
             </form>
           </div>
